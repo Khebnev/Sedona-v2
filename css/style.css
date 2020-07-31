@@ -64,6 +64,15 @@ img {
     height: 82px;
 }
 
+.main-header-logo  .logo-tablet {
+    display: none;
+}
+
+.main-header-logo  .logo-desktop {
+    display: none;
+}
+
+
 .header__intro {
     background-image: url(../images/back-mobile.jpg);
     background-repeat: no-repeat;

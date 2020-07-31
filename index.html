@@ -8,8 +8,30 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    
-    <header></header>    
+
+    <header>
+        <div class="header__menu">
+            <nav class="main-navigation">
+                <a href="#" class="main-header-logo">
+                    <!-- <img src="images/logotyle-mobile.svg" alt="logo"> -->
+                    <picture>
+                        <source media="(max-width: 780px)" srcset="images/logotyle-mobile.png" type="image/png">
+                        <source media="(max-width: 1200px)" srcset="images/logotype-tablet.png"  type="image/png">
+                        <img src="images/logotype-desktop.png" alt="Desktop" type="image/png">
+                    </picture>
+                </a>
+                <ul class="site-navigation">
+                    <li class="site-navigatiom__item site-navigatiom__item--current">Главная</li>
+                    <li class="site-navigatiom__item">Фото и видео</li>
+                </ul>
+                <ul>
+                    <li class="site-navigatiom__item">Форма отзыва</li>
+                    <li class="site-navigatiom__item">html academy</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__intro"></div>
+    </header>    
 
     <main></main>
 

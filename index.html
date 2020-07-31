@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sedona adaptive</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -15,9 +15,9 @@
                 <a href="#" class="main-header-logo">
                     <!-- <img src="images/logotyle-mobile.svg" alt="logo"> -->
                     <picture>
-                        <source media="(max-width: 780px)" srcset="images/logotyle-mobile.png" type="image/png">
-                        <source media="(max-width: 1200px)" srcset="images/logotype-tablet.png"  type="image/png">
-                        <img src="images/logotype-desktop.png" alt="Desktop" type="image/png">
+                        <source width="102" height="82" class="logo-mobile" media="(max-width: 320px)" srcset="images/logotyle-mobile.png" type="image/png">
+                        <source width="102" height="83" class="logo-tablet" media="(max-width: 768px)" srcset="images/logotype-tablet.png"  type="image/png">
+                        <img width="187" height="96" class="logo-desktop" src="images/logotype-desktop.png" alt="Desktop" type="image/png">
                     </picture>
                 </a>
                 <ul class="site-navigation">
@@ -30,7 +30,9 @@
                 </ul>
             </nav>
         </div>
-        <div class="header__intro"></div>
+        <div class="header__intro">
+
+        </div>
     </header>    
 
     <main></main>

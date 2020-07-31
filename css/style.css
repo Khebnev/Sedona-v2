@@ -27,3 +27,49 @@ img {
     width: 100%;
     height: auto;
 }
+
+.logo-mobile {
+    width: 102px;
+    height: 83px;
+}
+
+.logo-tablet {
+    width: 102px;
+    height: 83px;
+}
+
+.logo-desktop {
+    width: 187px;
+    height: 96px;
+}
+
+.header__menu {
+    background-color: burlywood;
+}
+
+.main-navigation {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.main-header-logo {
+    position: absolute;
+    left: 109px;
+}
+
+.main-header-logo  .logo-mobile {
+    width: 102px;
+    height: 82px;
+}
+
+.header__intro {
+    background-image: url(../images/back-mobile.jpg);
+    background-repeat: no-repeat;
+    max-width: 320px;
+    min-height: 390px;
+    background-position: 0 0;
+    background-size: 320px 390px;
+    /* background-color: green;*/
+}

@@ -50,18 +50,21 @@ img {
 .main-navigation {
     display: flex;
     flex-direction: column;
-    position: relative;
+
+    background-color: #7cacca;
 
 }
 
 .main-header-logo {
-    position: absolute;
-    left: 109px;
+    position: relative;
 }
 
 .main-header-logo  .logo-mobile {
     width: 102px;
     height: 82px;
+    position: absolute;
+    left: 109px;
+    top: 222px;
 }
 
 .main-header-logo  .logo-tablet {
@@ -72,8 +75,81 @@ img {
     display: none;
 }
 
+.site-navigation__left {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #81b3d2;
+}
+
+.site-navigation__right  {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #81b3d2;
+}
+
+.site-navigation__left .site-navigation__item:first-child {
+    /* background-color: #7cacca; */
+    margin: 0;
+    padding: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+    border-bottom: 1px solid #6cacd4;
+}
+
+.site-navigation__left .site-navigation__item:last-child {
+    /* background-color: #7cacca; */
+    margin: 0;
+    padding: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+    border-top: 1px solid #92b4c9;
+    border-bottom: 1px solid #6cacd4;
+}
+
+.site-navigation__right .site-navigation__item:first-child {
+    /* background-color: #7cacca; */
+    margin: 0;
+    padding: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+    border-top: 1px solid #92b4c9;
+    border-bottom: 1px solid #6cacd4;
+}
+
+.site-navigation__right .site-navigation__item:last-child {
+    /* background-color: #7cacca; */
+    margin: 0;
+    padding: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+    border-top: 1px solid #92b4c9;
+}
+
+
+/* block intro */
 
 .header__intro {
+    margin-top: 56px;
     background-image: url(../images/back-mobile.jpg);
     background-repeat: no-repeat;
     max-width: 320px;
@@ -81,4 +157,8 @@ img {
     background-position: 0 0;
     background-size: 320px 390px;
     /* background-color: green;*/
+}
+
+.header__intro {
+
 }
